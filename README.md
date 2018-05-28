@@ -1,6 +1,6 @@
 
 # Unscented Kalman Filter Project
-In this project I utilize an kalman filter using C++ to estimate the state of a moving object of interest with noisy lidar and radar measurements. Input data consisting of laser measurements (given directly as x and y positions, with some known uncertainty) and radar measurements (given as radius, angle, and radial velocity relative to some fixed measurement site, with some known uncertainty) are combined with a motion model to track a vehicle with much better accuracy than the individual measurements alone allow.
+In this project I utilize an Unscented Kalman filter using C++ to estimate the state of a moving object of interest with noisy lidar and radar measurements. Input data consisting of laser measurements (given directly as x and y positions, with some known uncertainty) and radar measurements (given as radius, angle, and radial velocity relative to some fixed measurement site, with some known uncertainty) are combined with a motion model to track a vehicle with much better accuracy than the individual measurements alone allow.t.
 
 My algorithm is run against Dataset 1 in the simulator "data/obj_pose-laser-radar-synthetic-input.txt" I collect the positions that my algorithm outputs into the folder results and compare them to ground truth data. My px, py, vx, and vy RMSE is less than or equal to the values [.09, .10, .40, .30]. 
 
